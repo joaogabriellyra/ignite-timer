@@ -1,9 +1,6 @@
-import Header from '../components/header'
-
 export default function Page() {
   return (
     <>
-      <Header />
       <main>
         <h1>Meu histórico</h1>
         <table>
