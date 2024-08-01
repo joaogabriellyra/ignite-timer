@@ -1,6 +1,6 @@
 export default function Timer() {
   return (
-    <main>
+    <div>
       <p>
         Vou trabalhar em <span>Dê um nome para o seu projeto</span> durante{' '}
         <span>- 00 +</span> minutos.
@@ -13,6 +13,6 @@ export default function Timer() {
       </div>
       <span>Preencha o nome e a duração antes de começar</span>
       <button>Começar</button>
-    </main>
+    </div>
   )
 }
