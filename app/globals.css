@@ -43,6 +43,7 @@ body {
   background: var(--gray-800);
   color: var(--gray-300);
   border-radius: 8px;
+  width: 70rem;
 }
 
 body, input, textarea, button {

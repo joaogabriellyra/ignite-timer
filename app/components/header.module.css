@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.rocketseatLogo {
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+.divHeaderIcons {
+  margin-right: 2.5rem;
+}
+
+.timerSvg {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.timerSvg:hover {
+  border-bottom: 3px solid var(--green-500);
+}
+
+.timerSvgActive {
+  color: var(--green-500);
+}
+
+.historySvg {
+  cursor: pointer;
+}
+
+.historySvg:hover {
+  border-bottom: 3px solid var(--green-500);
+}
+
+.historySvgActive {
+  color: var(--green-500);
+}
