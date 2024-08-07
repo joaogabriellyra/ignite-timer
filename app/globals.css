@@ -44,6 +44,7 @@ body {
   color: var(--gray-300);
   border-radius: 8px;
   width: 70rem;
+  height: calc(100vh - 10rem);
 }
 
 body, input, textarea, button {

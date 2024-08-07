@@ -9,19 +9,19 @@ export default function Header() {
     <header className={styles.header}>
       <Image
         src={logo}
-        width={logo.width}
-        height={logo.height}
+        width={40}
+        height={40}
         alt="rocketseat logo"
         className={styles.rocketseatLogo}
       />
-      <div className={styles.divHeaderIcons}>
+      <nav className={styles.navHeaderIcons}>
         <Link href="/home">
-          <Timer width={27} height={32} className={styles.timerSvg} />
+          <Timer size={24} />
         </Link>
         <Link href="/history">
-          <Scroll width={35} height={32} className={styles.historySvg} />
+          <Scroll size={24} />
         </Link>
-      </div>
+      </nav>
     </header>
   )
 }
